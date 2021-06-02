@@ -1,5 +1,12 @@
-import React, { memo } from "react";
+import React, { Fragment, memo } from "react";
+import SQDealNum from "@/components/deal-num";
 
 export default memo(function App() {
-  return <div>123</div>;
+  return (
+    <Fragment>
+      <div className="textName">
+        <SQDealNum />
+      </div>
+    </Fragment>
+  );
 });
